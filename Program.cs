@@ -3,8 +3,8 @@ using _net_version;
 using _net_version.Project;
 using Project;
 
-var input = "abcd";
-var input2 = "bbcd";
-var result = BackspaceStringCompare.BackspaceCompare(input, input2);
+var input = 19;
+//var input2 = "bbcd";
+var result = HappyNumber.IsHappy(input);
 Console.WriteLine(result);
 Console.ReadLine();
