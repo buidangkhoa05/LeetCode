@@ -10,6 +10,6 @@ var input2 = new ListNode(7);
 input2.next = new ListNode(3);
 //input2.next.next = new ListNode(9);
 
-var result = LongestCommonPrefix.LongestCommonPrefix1(new string[] { "a", "cac", "bcba", "b", "ca" });
+var result = ValidParentheses.IsValidParentheses("()[]{}");
 Console.WriteLine(result);
 Console.ReadLine();
