@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Project
+namespace _net_version.Project
 {
     /// <summary>
     /// url : https://leetcode.com/problems/palindrome-number/

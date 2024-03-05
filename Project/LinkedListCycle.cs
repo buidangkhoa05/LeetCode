@@ -1,6 +1,6 @@
 using System.Runtime.InteropServices;
 
-namespace Project
+namespace _net_version.Project
 {
     // url : https://leetcode.com/problems/linked-list-cycle/
     public static class LinkedListCycle

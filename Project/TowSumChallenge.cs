@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Project
+namespace _net_version.Project
 {
     /// <summary>
     /// leetcode url: https://leetcode.com/problems/two-sum/
@@ -26,7 +26,7 @@ namespace Project
                     numDict.Add(nums[i], i);
                 }
             }
-            
+
             return [];
         }
     }

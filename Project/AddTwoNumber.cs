@@ -1,6 +1,4 @@
-﻿using Project;
-
-namespace _net_version.Project
+﻿namespace _net_version.Project
 {
     internal static class AddTwoNumber
     {

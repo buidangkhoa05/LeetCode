@@ -1,4 +1,4 @@
-﻿namespace _net_version;
+﻿namespace _net_version.Project;
 
 public class DailyProblemSolving_26012024
 {
@@ -12,7 +12,7 @@ public class DailyProblemSolving_26012024
         }
         for (int i = 0; i < sumArr.Length; i++)
         {
-            int leftValue = i - 1 < 0 ? 0 : sumArr[i - 1]; 
+            int leftValue = i - 1 < 0 ? 0 : sumArr[i - 1];
             int rightValue = sumArr[sumArr.Length - 1] - sumArr[i];
             if (leftValue == rightValue)
                 return i;

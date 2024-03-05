@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Project
+namespace _net_version.Project
 {
     public static class RomanToInteger
     {
@@ -26,13 +26,13 @@ namespace Project
             for (int i = s.Length - 2; i >= 0; i--)
             {
                 tmpValue = dict[s[i]];
-                if(dict[s[i + 1]] > tmpValue)
+                if (dict[s[i + 1]] > tmpValue)
                 {
                     result -= tmpValue;
                 }
                 else
                 {
-                    result +=  tmpValue;
+                    result += tmpValue;
                 }
             }
 

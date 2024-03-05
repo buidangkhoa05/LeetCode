@@ -1,7 +1,7 @@
 using System.Diagnostics.Contracts;
 using System.Runtime.CompilerServices;
 
-namespace Project
+namespace _net_version.Project
 {
     /// <summary>
     /// leetcode url : https://leetcode.com/problems/set-mismatch/?envType=daily-question&envId=2024-01-21

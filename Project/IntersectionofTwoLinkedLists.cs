@@ -1,8 +1,6 @@
-
-
 using System.Runtime.InteropServices;
 
-namespace Project
+namespace _net_version.Project
 {
     // url : https://leetcode.com/problems/intersection-of-two-linked-lists/
     public static class IntersectionofTwoLinkedLists
@@ -33,7 +31,7 @@ namespace Project
             var firstSub = headA;
             var secondSub = headB;
 
-            while(firstSub != secondSub)
+            while (firstSub != secondSub)
             {
                 firstSub = firstSub == null ? headB : firstSub.next;
                 secondSub = secondSub == null ? headA : secondSub.next;

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Project
+namespace _net_version.Project
 {
     public static class MajorityElementProblem
     {
@@ -13,13 +13,13 @@ namespace Project
             var countList = new Dictionary<int, int>();
             foreach (var num in nums)
             {
-                if(countList.ContainsKey(num))
+                if (countList.ContainsKey(num))
                     countList[num]++;
                 else
                     countList[num] = 1;
 
-                if(countList[num] > nums.Length / 2)
-                    return num;                
+                if (countList[num] > nums.Length / 2)
+                    return num;
             }
 
             return 0;
