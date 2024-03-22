@@ -1,4 +1,4 @@
-﻿namespace _net_version.Project
+﻿namespace LeetCode.Project
 {
     /// <summary>
     /// https://leetcode.com/problems/min-cost-climbing-stairs/submissions/1184110079/?envType=daily-question&envId=2024-01-21

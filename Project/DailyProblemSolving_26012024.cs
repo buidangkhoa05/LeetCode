@@ -1,4 +1,4 @@
-﻿namespace _net_version.Project;
+﻿namespace LeetCode.Project;
 
 public class DailyProblemSolving_26012024
 {

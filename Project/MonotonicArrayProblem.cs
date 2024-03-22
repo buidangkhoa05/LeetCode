@@ -1,6 +1,6 @@
 ﻿using System.IO.IsolatedStorage;
 
-namespace _net_version.Project
+namespace LeetCode.Project
 {
     internal static class MonotonicArrayProblem
     {

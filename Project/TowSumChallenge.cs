@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace _net_version.Project
+namespace LeetCode.Project
 {
     /// <summary>
     /// leetcode url: https://leetcode.com/problems/two-sum/

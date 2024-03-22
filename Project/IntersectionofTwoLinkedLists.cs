@@ -1,6 +1,6 @@
 using System.Runtime.InteropServices;
 
-namespace _net_version.Project
+namespace LeetCode.Project
 {
     // url : https://leetcode.com/problems/intersection-of-two-linked-lists/
     public static class IntersectionofTwoLinkedLists

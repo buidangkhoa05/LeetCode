@@ -6,7 +6,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _net_version.Project
+namespace LeetCode.Project
 {
     internal static class BackspaceStringCompare
     {

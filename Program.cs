@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using _net_version.Project;
+using LeetCode.Project;
 
 var input = new ListNode(0);
 //input.next = new ListNode(9);

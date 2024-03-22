@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _net_version.Project
+namespace LeetCode.Project
 {
     /// <summary>
     /// https://leetcode.com/problems/sort-array-by-parity/description/?envType=daily-question&envId=2024-01-21
