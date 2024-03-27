@@ -5,9 +5,7 @@ using LeetCode.Project;
 var input1 = "ABCABC";
 var input2 = "ABC";
 
-var result = CanPlaceFlowerss.CanPlaceFlowers([1,0,0,0,0,1], 2);
-
-MovesZero.MoveZeroes([0,1,0,3,12]);
+var result = Subsequence.IsSubsequence("aaaaaa", "bbaaaa");
 
 Console.WriteLine(result);
 Console.ReadLine();
