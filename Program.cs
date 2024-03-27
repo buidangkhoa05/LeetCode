@@ -1,15 +1,13 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using _net_version;
 using LeetCode.Project;
 
-var input = new ListNode(0);
-//input.next = new ListNode(9);
-//input.next.next = new ListNode(9);
-//input.next.next.next = new ListNode(9);
+var input1 = "ABCABC";
+var input2 = "ABC";
 
-var input2 = new ListNode(7);
-input2.next = new ListNode(3);
-//input2.next.next = new ListNode(9);
+var result = CanPlaceFlowerss.CanPlaceFlowers([1,0,0,0,0,1], 2);
 
-var result = ValidParentheses.IsValidParentheses("()[]{}");
+MovesZero.MoveZeroes([0,1,0,3,12]);
+
 Console.WriteLine(result);
 Console.ReadLine();
